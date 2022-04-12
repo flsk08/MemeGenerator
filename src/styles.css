@@ -1,0 +1,58 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.904);
+}
+
+.memeImg {
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 60%;
+  height: auto;
+}
+
+input {
+  margin: 4px;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+button {
+  background-color: rgb(28, 133, 168);
+  color: white;
+  letter-spacing: 2.5px;
+  padding: 15px;
+  margin: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(28, 133, 168);
+  padding: 17px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.top {
+  position: absolute;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 34px;
+  -webkit-text-stroke: 2px black;
+  -webkit-text-fill-color: white;
+}
+
+.bottom {
+  position: absolute;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  -webkit-text-stroke: 2px black;
+  -webkit-text-fill-color: white;
+  bottom: 500px;
+}
